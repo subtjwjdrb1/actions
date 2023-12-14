@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - 'develop'
+      - 'test'
+
+jobs:
+  build:
+    runs-on: common-runner-jpn-ovs-dev-shr-01
+    steps:
+    - name: Run pwd
+      run: pwd
+    - name: Run ls -al
+      run: ls -al
