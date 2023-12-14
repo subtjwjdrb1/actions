@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: common-runner-jpn-ovs-dev-shr-01
+    runs-on: ubuntu-latest
     steps:
     - name: Run pwd
       run: pwd
